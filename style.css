@@ -69,6 +69,8 @@ main{padding-top:var(--head)}
 .work{--c:var(--s1);--t:var(--s1t);border-bottom:4px solid var(--fg)}
 #muro{--c:var(--s2);--t:var(--s2t)}
 #arcade{--c:var(--s3);--t:var(--s3t)}
+#revolver{--c:var(--s2);--t:var(--s2t)}
+#cachecol{--c:var(--s3);--t:var(--s3t)}
 .band{position:relative;background:var(--c);color:var(--t);padding:calc(var(--pad)*1.4) var(--pad) calc(var(--pad)*1.8);display:grid;grid-template-columns:1fr minmax(0,440px);gap:var(--pad);align-items:end;background-image:radial-gradient(rgba(0,0,0,.14) 1.4px,transparent 1.6px);background-size:14px 14px}
 .band>div,.band>p{position:relative;z-index:2}
 .band h2{font-stretch:62%;font-weight:900;font-size:clamp(56px,12vw,180px);line-height:.85;text-transform:uppercase;text-shadow:4px 4px 0 rgba(0,0,0,.3)}
